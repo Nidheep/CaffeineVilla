@@ -1,0 +1,46 @@
+/* .carousel-inner{
+    max-height: 800px;
+    background-color: black;
+} */
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+/* .carousel-inner img{
+    height: 400px;
+    object-fit: contain;
+} */
+.contain{
+    background-size: contain;
+}
+.navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    letter-spacing: 2px !important;
+    opacity: 0.9;
+    font-size: larger;
+}
+
+.navbar-brand{
+    font-family: Sofia !important;
+    font-size: xx-large !important;
+}
+.nav-item{
+    font-family: P T Sans !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: normal;
+}
